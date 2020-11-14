@@ -1,0 +1,5 @@
+homepage: "https://www.luratic.com"
+documentation: "https://www.luratic.com/posts/templates/tags/jsdelivr/"
+versions:
+  - sha: 4a692789149c5692c2cc128aabc64ffb31c36b81
+    changeNotes: Initial release
