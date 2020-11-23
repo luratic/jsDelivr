@@ -1,5 +1,7 @@
 homepage: "https://www.luratic.com"
 documentation: "https://www.luratic.com/posts/templates/tags/jsdelivr/"
 versions:
+  - sha: 2d731bbe6a379dc690c6281491164020de71e1c7
+    changeNotes: Fix encode uri
   - sha: 4a692789149c5692c2cc128aabc64ffb31c36b81
     changeNotes: Initial release
