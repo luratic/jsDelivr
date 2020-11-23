@@ -57,10 +57,12 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
 const log = require('logToConsole');
+const encodeUri = require('encodeUri');
+
 
 //log("data", data);
 const host = 'https://cdn.jsdelivr.net';
-var uri = data.path; 
+const uri = encodeUri(data.path); 
 let trackingUrl = host + uri ;
 
 if (!uri.indexOf(host)) {
